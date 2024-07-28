@@ -1,0 +1,43 @@
+nav{
+  font-weight: bold;
+  background-color: rgba(245, 247, 250, 1);
+}
+
+.container-fluid{
+  color: rgba(77, 77, 77, 1);
+  background-color: rgba(245, 247, 250, 1);
+}
+
+.custom-image1{
+  width: 400px;
+}
+
+.cp2{
+  color: rgba(137, 147, 158, 1);
+}
+
+.footer-h{
+  font-size:45px;
+}
+
+.herosec{
+  font-size:50px;
+}
+
+footer{
+  background-color: rgba(38, 50, 56, 1);
+}
+
+input::placeholder{
+  color: white;
+}
+
+@media (max-width:786px) {
+  .custom-image{
+      width: 300px;
+  }
+  .ah2{
+      text-align: center;
+  }
+}
+
