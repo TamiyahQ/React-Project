@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 const Header = () => {
 
   return (
@@ -9,10 +11,10 @@ const Header = () => {
     </button>
     <div class="collapse navbar-collapse p-3 justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="src\components\Home">Home</a>
-        <a class="nav-link" href="#">Service</a>
-        <a class="nav-link" href="#">Feature</a>
-        <a class="nav-link" href="#">Product</a>
+      <NavLink class="nav-link" aria-current="page" to="/">Home</NavLink>
+        <NavLink className="nav-link" to="/service">Service</NavLink>
+        <NavLink className="nav-link" to="/about">About</NavLink>
+        <NavLink className="nav-link" to="/contact">Contact</NavLink>
         <a class="nav-link" href="#">Testimonial</a>
         <a class="nav-link" href="#">FAQ</a>
         
