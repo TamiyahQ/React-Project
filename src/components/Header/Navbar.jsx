@@ -11,7 +11,7 @@ const Header = () => {
     </button>
     <div class="collapse navbar-collapse p-3 justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link" aria-current="page" href="#">Home</a>
+        <Link className="nav-link" aria-current="page" to="/">Home</Link>
         <Link className="nav-link" to="/service">Service</Link>
         <Link className="nav-link" to="/about">About</Link>
         <Link className="nav-link" to="/contact">Contact</Link>
