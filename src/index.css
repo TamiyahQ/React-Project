@@ -32,6 +32,25 @@ input::placeholder{
   color: white;
 }
 
+.custom-image-about{
+  width: 250px;
+}
+
+.custom-input{
+  border: rgb(226, 226, 226) 1px solid;
+  border-radius: 10px;
+  background-color: rgb(223, 223, 223);
+}
+
+.custom-input:hover{
+  background-color: gray;
+}
+
+.custom-form{
+  border: rgba(38, 50, 56, 1) 2px solid;
+  border-radius: 10px;
+}
+
 @media (max-width:786px) {
   .custom-image{
       width: 300px;
