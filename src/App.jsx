@@ -7,7 +7,6 @@ import Service from "./components/Header/Service";
 
 function App() {
   
-
   return (
     <>
       <Navbar />
